@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url("../font/FiraCode/FiraCode-Regular.woff2") format('woff2'), url("../font/FiraCode/FiraCode-Bold.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSans';
+  src: url("../font/NotoSans/noto-sans-v14-latin-regular.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 .page pre,
 .page .highlight {
   overflow: auto;
@@ -240,13 +252,13 @@ body {
   color: #494e52;
   font-size: 1.8em;
   line-height: 1.5;
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  font-family: "Times New Roman", FangSong, STFangsong, sans-serif, "Fira Code";
   scroll-behavior: smooth;
 }
 a,
 span,
 .btn {
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  font-family: "Times New Roman", FangSong, STFangsong, sans-serif, "Fira Code";
 }
 img {
   max-width: 100%;
@@ -486,7 +498,7 @@ blockquote p {
   text-align: right;
 }
 .page article code {
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  font-family: "Times New Roman", FangSong, STFangsong, sans-serif, "Fira Code";
   padding: 0.2rem 0.3rem;
   background: rgba(27,31,35,0.05);
   word-wrap: break-word;
@@ -535,7 +547,7 @@ blockquote p {
 .author-avatar img {
   width: 100%;
   max-width: 110px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 .author-discrip {
   display: table-cell;
