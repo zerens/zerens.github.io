@@ -10,6 +10,24 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Lato';
+  src: url("../font/Lato/lato-regular.woff2") format('woff2'), url("../font/Lato/lato-italic.woff2") format('woff2'), url("../font/Lato/lato-bold.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../font/Merriweather/merriweather-regular.woff2") format('woff2'), url("../font/Merriweather/merriweather-bold.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Sans';
+  src: url("../font/PTSans/pt-sans-regular.woff2") format('woff2'), url("../font/PTSans/pt-sans-bold-italic.woff2") format('woff2'), url("../font/PTSans/pt-sans-italic.woff2") format('woff2'), url("../font/PTSans/pt-sans-bold.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 .page pre,
 .page .highlight {
   overflow: auto;
@@ -252,13 +270,13 @@ body {
   color: #494e52;
   font-size: 1.8em;
   line-height: 1.5;
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif, "Fira Code";
+  font-family: "Times New Roman", FangSong, STFangsong, sans-serif, "Fira Code", "PT Sans", Merriweather,;
   scroll-behavior: smooth;
 }
 a,
 span,
 .btn {
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif, "Fira Code";
+  font-family: "Times New Roman", FangSong, STFangsong, sans-serif, "Fira Code", "PT Sans", Merriweather,;
 }
 img {
   max-width: 100%;
@@ -498,7 +516,7 @@ blockquote p {
   text-align: right;
 }
 .page article code {
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif, "Fira Code";
+  font-family: "Times New Roman", FangSong, STFangsong, sans-serif, "Fira Code", "PT Sans", Merriweather,;
   padding: 0.2rem 0.3rem;
   background: rgba(27,31,35,0.05);
   word-wrap: break-word;
